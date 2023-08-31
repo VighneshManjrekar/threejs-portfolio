@@ -22,6 +22,8 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import python from "./tech/python.png";
+import react from "./tech/react.png"
+import cpp from "./tech/c++.png"
 
 import inarti from "./company/inarti.png";
 import lotus from "./company/lotus.png";
@@ -31,6 +33,8 @@ import postman from "./company/postman.png"
 import arcade from "./arcade.png";
 import devcamper from "./devcamper.png";
 import shop from "./shop.png"
+import fiverr from "./fiverr.png"
+import wild from "./wild.png"
 
 export {
   logo,
@@ -45,6 +49,8 @@ export {
   docker,
   figma,
   git,
+  react,
+  cpp,
   html,
   javascript,
   mongodb,
@@ -62,5 +68,7 @@ export {
   postman,
   arcade,
   devcamper,
-  shop
+  shop,
+  fiverr,
+  wild
 };

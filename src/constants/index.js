@@ -11,13 +11,18 @@ import {
   git,
   figma,
   python,
+  tailwind,
+  react,
+  cpp,
   inarti,
   lotus,
   gdsc,
   postman,
   arcade,
   devcamper,
-  shop
+  shop,
+  fiverr,
+  wild,
 } from "../assets";
 
 export const navLinks = [
@@ -37,17 +42,17 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full-Stack Development",
     icon: web,
   },
   {
-    title: "UI/UX Designer",
+    title: "UI/UX Design",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "API Develpent",
     icon: backend,
-  }
+  },
 ];
 
 const technologies = [
@@ -79,6 +84,15 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
+  {
+    name: "react",
+    icon: react,
+  },
+  {
+    name: "tailwind",
+    icon: tailwind,
+  },
+  { name: "c++", icon: cpp },
   {
     name: "git",
     icon: git,
@@ -124,7 +138,7 @@ const experiences = [
     company_name: "Google Developer Students Club DMCE",
     icon: gdsc,
     iconBg: "#383E56",
-    date: "August 2022 - Present",
+    date: "August 2022 - June 2023",
     points: [
       "Leading and Managing team of 5 members, providing guidance and support to ensure the smooth operation of our activities.",
       "Maintained open-source repository during Hacktoberfest2022.",
@@ -141,33 +155,6 @@ const experiences = [
     points: [
       "Organized and hosted API101 sessions to literate peers about APIs using Postman.",
     ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
@@ -191,7 +178,7 @@ const projects = [
       },
     ],
     image: arcade,
-    source_code_link: "https://vighnesh.ninja/arcade-game-mix/",
+    source_code_link: "https://vighneshmanjrekar.github.io/arcade-game-mix/",
   },
   {
     name: "Devcamper API",
@@ -199,8 +186,8 @@ const projects = [
       "Backend API for Devcamper, an online learning platform. Where expert trainer can offer bootcamp courses to educate people.",
     tags: [
       {
-        name: "nodejs",
-        color: "blue-text-gradient",
+        name: "node",
+        color: "orange-text-gradient",
       },
       {
         name: "express",
@@ -236,6 +223,48 @@ const projects = [
     image: shop,
     source_code_link: "https://github.com/VighneshManjrekar/manjrekar-shop",
   },
+  {
+    name: "Fiver clone",
+    description:
+      "Full Stack MERN clone of the popular platform Fiverr. It allows users to act as sellers or buyers, offering and purchasing various services.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "node",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: fiverr,
+    source_code_link: "https://github.com/VighneshManjrekar/fiverr-clone",
+  },
+  {
+    name: "Wildlife detection",
+    description:
+      "Wildlife Detection and Evaluation From Camera Trap images Using Deep Learning to detect animals for providing valuable insights into wildlife monitoring",
+    tags: [
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "deep-learning",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: wild,
+    source_code_link: "https://github.com/VighneshManjrekar/wildlife-detection",
+  },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
